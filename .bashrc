@@ -78,6 +78,7 @@ alias gut="git"
 alias got="git"
 alias bit="git"
 alias sl="ls"
+alias g="grep -i"
 alias spip='sudo -H pip'
 alias spip2='sudo -H pip2'
 alias spip3='sudo -H pip3'
