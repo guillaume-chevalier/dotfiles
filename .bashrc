@@ -96,7 +96,7 @@ alias smi2='watch -n0.1 nvidia-smi'
 alias wdf='watch -n0.1 df -H'
 
 # Cleaning
-alias rmpyc='find $(git rev-parse --show-cdup) -name "*.pyc" -delete'
+alias rmpyc='find $(git rev-parse --show-cdup) -name "*.pyc" -delete && find $(git rev-parse --show-cdup) -name "__pycache__" -delete'
 alias rmdstore='find $(git rev-parse --show-cdup) -name "_DS_Store" -delete'
 alias rk="sudo rkhunter --check --pkgmgr DPKG --report-warnings-only"
 alias clean='rm -rf .cache/spotify/Data/'
