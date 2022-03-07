@@ -105,8 +105,8 @@ alias clean='rm -rf .cache/spotify/Data/'
 # Image editing
 alias topdf='convert * -quality 70 -precision 300 final.pdf'
 alias topdfhq='convert * -quality 95 -precision 300 final.pdf'
-alias pdftojpg='convert -density 200 * -quality 90 -precision 100 %04d.jpg'
-alias pdftojpghq='convert -density 300 * -quality 100 -precision 300 %04d.jpg'
+alias pdftojpg='convert -density 200 * -quality 90 -precision 100 -background white -alpha remove %04d.jpg'
+alias pdftojpghq='convert -density 300 * -quality 100 -precision 300 -background white -alpha remove %04d.jpg'
 alias toanimatedgif='convert -quality 100 -delay 20 -loop 0 * myimage.gif'
 alias change_wallpaper="crontab -e"
 
