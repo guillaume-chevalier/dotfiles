@@ -115,6 +115,7 @@ alias gitlog='git log --graph --oneline --all'
 alias gitlogr='git log --graph --decorate --pretty=oneline --abbrev-commit --all'
 alias gitlogf='git log --graph --all'
 alias gitsta="gitstats . ./____gitstats && sensible-browser ./____gitstats/index.html"
+alias gitadd="git add -A"
 alias gst="git status"
 alias gitstad="rm -rf ./____gitstats/"
 alias gitnuke="git reset HEAD^"
