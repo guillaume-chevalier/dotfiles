@@ -85,6 +85,8 @@ alias spip3='sudo -H pip3'
 alias chx="chmod +x"
 alias cd..="cd .."
 alias ipython='ipython3'
+alias sc="source $RC"
+alias sv="source ./venv/bin/activate"
 
 # Utils
 alias @@='$($(fc -ln -1) |& tail -1)'
@@ -96,6 +98,7 @@ alias smi2='watch -n0.1 nvidia-smi'
 alias wdf='watch -n0.1 df -H'
 alias pyfiles='find . | grep -i .py$ | wc -l'
 alias pylines='cat $(find . | grep -i .py$) | wc -l'
+alias mkvenv='python3 -m venv ./venv'
 alias lspy='find . | grep -i .py$'
 
 # Cleaning
