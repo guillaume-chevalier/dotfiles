@@ -104,7 +104,6 @@ alias rmdstore='find $(git rev-parse --show-cdup) -name "_DS_Store" -delete'
 alias rk="sudo rkhunter --check --pkgmgr DPKG --report-warnings-only"
 alias clean='rm -rf .cache/spotify/Data/'
 
-
 # Image editing
 alias topdf='convert * -quality 70 -precision 300 final.pdf'
 alias topdfhq='convert * -quality 95 -precision 300 final.pdf'
@@ -122,5 +121,5 @@ alias gitadd="git add -A"
 alias gst="git status"
 alias gitstad="rm -rf ./____gitstats/"
 alias gitnuke="git reset HEAD^"
-
+alias ppwd='export PYTHONPATH="$PWD"'
 
