@@ -94,6 +94,8 @@ alias greprecursivei='grep -rnwi . -e'
 alias smi='while true; do sleep 1; nvidia-smi; done'
 alias smi2='watch -n0.1 nvidia-smi'
 alias wdf='watch -n0.1 df -H'
+alias pyfiles='find . | grep -i .py$ | wc -l'
+alias pylines='cat $(find . | grep -i .py$) | wc -l'
 
 # Cleaning
 alias rmpyc='find $(git rev-parse --show-cdup) -name "*.pyc" -delete && find $(git rev-parse --show-cdup) -name "__pycache__" -delete'
